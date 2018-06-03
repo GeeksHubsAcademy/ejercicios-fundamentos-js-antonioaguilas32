@@ -1,11 +1,19 @@
-////////////////////////////// 
+//////////////////////////////
 //  1
 //  Crea un objecto en la variable ordenador
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
 
 
 // Aquí tu código
-
+var ordenador = {
+  marca: 'La pava',
+  tipo: 'portátil',
+  perifericos: ['raton','touchPad'],
+  almacenamiento: {
+    discos: ['SSD','HDD'],
+    maestro: 0
+  }
+}
 
 
 // Hasta aquí
@@ -49,8 +57,7 @@ if (ordenador.almacenamiento.maestro === 0) {
 // TEST 7
 if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD') {
     console.log('apruebas');
-    
+
 } else {
     console.log('suspendes');
 }
-

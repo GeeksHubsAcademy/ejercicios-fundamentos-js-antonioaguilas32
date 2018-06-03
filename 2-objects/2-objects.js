@@ -1,10 +1,18 @@
-////////////////////////////// 
+//////////////////////////////
 //  2
 //  Crea un objecto en la variable llamada obj
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
 
 
 // Aquí tu código
+var obj = {
+  a:{
+    b:false,
+    c:[1,3]
+  },
+  d:6,
+  f:'hola'
+}
 
 // Hasta aquí
 
