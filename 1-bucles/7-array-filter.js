@@ -34,4 +34,6 @@ let gente = [{
         edad: 10
     },
 ]
-
+let personas = gente.filter(persona =>   persona.nombre[0].toUpperCase() === 'J' &&
+persona.edad > 40 )
+console.log(personas);
